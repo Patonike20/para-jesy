@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://lh3.googleusercontent.com/pw/ADCreHc1BUDqMr7hDZvsmCllPrGkICwETjISBbuWO1hmaH1dmHJl0XnNIN1QNQKT1p-ZYS-RxJ-eEuQ6T5QszFYjFUOPz1I9vjH5sHWqoYH7PiuWkAc56vyriclCe8F0oX6j8T2aONyw_Mq8zh3ggijuZrJ92K7uRdc17W9Y3wDrxPB85XPTKbbpdr6CDADLZ3JIs_NI6LjQ0Fu_-rX6TcIdkifxjFD6c09DPE-LsBq_UGzviDhffbrsK_Qm0QeIyxxq3nuZHVR5-49pL4cpCb0ZT_HACyORQw0fM06WEONszOLUkGrw61SUM_4CzZajeMgZZrVK1rYQSy7OotLfK_X07WWEgYmDdvyRLgOx7asFYDiFZOE5Rky8sWS7NU534RFMf4Ab9msAdDUKth4uDYmarbadWP0jf5WSPLZ8bCcJfuYK_VXg_B-NXp1tIqUTRTKzCGJ5YR17E1lfxJBEI2XunsYVGXwuSFmWAAEJO-0Vugw0p7D1oxMOyzLHoYXt0rrkOrGka9yJ-HMor3RwhdJVj4ixCnpMSpxTYtVjggHiznWMnfP5uJ996G5YMNP61bwdIAOX1mygZctV7rIxHfI8ZHcYbMxNBEtTKrhw5JJvNgVnlq7EOyq2BLe_vzBQV8OUqlooM2SAZtMLDpe7ySoV4XzXsVjmHa1j_BQNc6DqPKNzbxRtV3dsL5goevUlXa6dEIo187muF0COiZqv2goAR-uGGyaRG9PIvctoRCAmcuydoxW2jhK6dSg0NysMnPEI4BkoPqY5PDkkNz2NIfaB827f9C8FYLC8TnFytVyhQyIwrpKFMzum7uf_AA9i3hDQypTdsYwxy9TduoarlciWyZt_vCyEx07jC2uLQUFA1dQV9srzr0sGJvRnjTMHXRgDFviG-U9G80u1DLlfLzdfelaKb6QlBP7QFQ4CoLQtQGLVc9DIcz-fnny8IQ=w1161-h653-s-no?authuser=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    text-align: center;
+    background: none;
+    border-radius: 10px;
+    backdrop-filter: blur(0.5rem);
+    box-shadow: 5px 5px 10px #0000002f;
+    
+}
+.title-box{
+    padding: 20px;
+    background: #c4bfbf7a;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.title-box{
+    color: #ff0404;
+}
+.subname-box, .cuestion, .submenu-box_continue{
+    background: #ff00006e;
+}
+.subname-box{
+    padding: 20px;
+    color: #fff;
+}
+.cuestion{
+    padding: 20px;
+}
+.submenu-box_continue{
+    padding: 25px;
+}
+.Buttom{
+    background: #ffffff71;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 15px;
+}
+.Buttom a{
+    margin: 50px;
+    background: #b46868;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 6px;
+    color: #ffffff;
+}
+a:hover{
+    background: #ff0404;
+    color: #ffffff;
+    
+}
+@media (max-width: 407px){
+    body{
+        background-image: url(https://lh3.googleusercontent.com/pw/ADCreHfdWuBhWxjNs8TRVYxmYlWpQtUSu2M2JAtSxdO38Dz3fpYd7G3qL5d1xK0m7LtgOOvqPopT5KIMRsjf13lQSWnNL8jD5wV3Zxr9-7M7FVLIK1D6G1LnKUrIj7BvKpW6Lb61bxfVC2csYDrmraNiqFyXs6Ds-Vgg5CcakiKC2AvUE2a_LO6hY3itPx244b8tMq_-LB1qDkJqqeZ4UVg9fPtv5ewDbvKaloyAuHlCZS6xY30LsmRqA9tVHwlReiG7oz6ZkpdNrk4JLy6RxFLF0DwFppadyc3UcYxbpFbWhFLjx6K2EM95V9VLe0-V09nyLfn0zhYuvUZV1cybpNPFD8pVyz1lwetHsv3_LyjWWclxIzcoFmYg2uOGab_weM3TlZbg0avKosbbpO5XZASQcrTd91LoL54Katu_4gow6-6oqlonNDaf13gpK4gY6JXwwgon3--yd1T_IbRoB8eLDp3CVMPc7Wn7tUtY1U7wMyKajGI-9mX9dzQ9t9Y1bfroiDIhQG5rxU8kKV7enCVcpRdfc9mLnJjjzypRbE3REnU3sQZKcZWHbudjkFsIgYQ-dj9pABKWC3XCoG2yhBva9oUUhX0FgacZ9AhSzYZj19o9i9TwGg-i_yzzrBsufCeBdCbBU23EPZoa0DF2LE6LeMcv9AcZJVhYn2uFj0QW8IlWHDYlSXc2HD0H4N7idVtwMj3Vlj1t_3SPxcCfZJUPXnqrVLJYa93EjKbX6v_GXsbEEsmktIF1Gq4oM4aW4LWbWyqQSejhSkV73VUXofv_NMlGr5ZVD06J6EoAuSOK-gmBCiYhLzp45AAF583omTmgn2JiXLiIlhyZAPcCgPh7v50HkZZ5Cea1s4IejoaV4t2Cdk2IbKmPScn0_HFtEjcs6N0qQQMLR_QOhuVEIybH_0p-J8RbhP3VASS3W7ZZ1FkWK-8nQnh2fptWyA=w333-h653-s-no?authuser=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        margin-bottom: 20px;
+        margin-top: 45px;
+        margin-left: 35px;
+        margin-right: 35px;
+        background: none;
+        backdrop-filter: blur(0.5rem);
+        box-shadow: 5px 5px 10px #433d3db9;
+        
+    }
+    .cuestion{
+        color: #fff;
+    }
+    .subname-box{
+        font-size: 18px;
+    }
+    .submenu-box_continue{
+        font-size: 23px;
+    }
+    .Buttom{
+        display: flex;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .Buttom a{
+        margin-left: 30px;
+        text-align: center;
+        margin-right: 50px;
+        padding: 6px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
